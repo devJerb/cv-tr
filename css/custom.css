@@ -19,7 +19,7 @@ li {
 
 a:hover {
   text-decoration: none !important;
-  color: #65169696 !important;
+  color: #3f0d5fce !important;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .color-container {
-  color: #65169696;
+  color: #3f0d5fce;
 }
 
 .main-nav {
@@ -196,7 +196,8 @@ a:hover {
 }
 
 .work .work-list li a:hover {
-  border-bottom: 1px solid #65169696;
+  border-bottom: 1px solid #3f0d5fce;
+  ;
 }
 
 .award .award-list {
