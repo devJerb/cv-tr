@@ -6,6 +6,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Tuğçe Cömertpay">
+	<meta http-equiv="refresh" content="30">
+	<meta name="googlebot">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" href="css/kube.min.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -47,13 +49,14 @@
 					<img src="img/tugce.jpg" alt="Avatar">
 				</div>
 				<div class="unit-80">
-					<h1 class="color-container">I live in<br><span id="typed"></span></h1>
+					<h1 class="color-container">I live in<br><span id="typed" translate="no"></span></h1>
 				</div>
 				<p>
 					A graduate of Çukurova Üniversitesi with a degree of BS in German Education whilst studying English
 					who lives in Adana, Turkey. I'm quite meticulous and organized with my work on tutoring and class discussions for more than 2 years, oh! I also love coffee
 					and music too.
 				</p>
+				<div id="google_translate_element"></div>
 			</div>
 		</div>
 	</div>
@@ -181,6 +184,12 @@
 		</div>
 	</footer>
 
+	<script defer>
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: 'true', includedLanguages:'tr,en,de,tl'}, 'google_translate_element');
+		}
+	</script>
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
 	<script src="js/kube.min.js"></script>
@@ -188,7 +197,7 @@
 	<script>
 		function newTyped() { } $(function () {
 			$("#typed").typed({
-				strings: ["Turkey", "Germany", "Philippines", 'Apartment', 'Coffee Shops', 'My Phone'],
+				strings: ["Türkiye", "Germany", "Philippines", 'My Condo', 'Coffee Shops', 'My Phone'],
 				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
 			}), $(".reset").click(function () { $("#typed").typed("reset") })
 		});
