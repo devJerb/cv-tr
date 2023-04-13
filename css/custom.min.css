@@ -53,7 +53,7 @@ body > .skiptranslate {
 }
 
 #google_translate_element select:focus {
-    color: #4e4e4e;;
+    color: #4e4e4e;
     background-color: #ebebeb;
 }
 
