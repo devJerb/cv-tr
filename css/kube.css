@@ -12,6 +12,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+::selection {
+  color: #fff;
+  background: #594b89;
+}
+
 html,
 body,
 div,
@@ -104,6 +109,7 @@ h6 {
 a:active,
 a:hover {
   outline: 0;
+  color: #7f1bbdce !important;
 }
 
 article,
@@ -276,7 +282,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #de2c3b;
+  color: #7f1bbdce !important;
 }
 
 /* =Headings
