@@ -15,48 +15,6 @@
     background: #3f0d5fce;
 }
 
-/*hide google translate link | logo | banner-frame */
-.goog-logo-link,
-.gskiptranslate,
-.goog-te-gadget span,
-#goog-gt-tt,
-.goog-te-balloon-frame,
-div#goog-gt- {
-    display: none !important;
-}
-
-body > .skiptranslate {
-    display: none;
-}
-
-.goog-te-gadget {
-    color: transparent !important;
-    user-select: none;
-}
-
-.goog-text-highlight {
-    background: none !important;
-    box-shadow: none !important;
-}
-
-/*google translate Dropdown */
-#google_translate_element select {
-    background-color: #f7f7f7;
-    border: none;
-    border-radius: 5px;
-    padding: 7px 15px;
-    font-family: "Lato", Arial, sans-serif;
-    font-size: 15px;
-    color: #4e4e4e;
-    border-color: #fff;
-    transition: 0.3s ease-in-out;
-}
-
-#google_translate_element select:focus {
-    color: #4e4e4e;
-    background-color: #ebebeb;
-}
-
 h1,
 h2,
 h3,
